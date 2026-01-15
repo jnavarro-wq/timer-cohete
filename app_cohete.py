@@ -1,4 +1,3 @@
-%%writefile C:/Users/Jorge/app_cohete.py
 import streamlit as st
 import time
 
@@ -76,4 +75,5 @@ else:
         # Usamos st.audio nativo con autoplay para asegurar que suene el final
         # URL de Efecto de sonido 'Success' (MP3)
         st.audio("https://www.soundjay.com/misc/sounds/bell-ringing-05.mp3", format="audio/mp3", autoplay=True)
+
         
